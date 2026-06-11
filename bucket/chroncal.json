@@ -1,23 +1,29 @@
 {
-  "version": "0.2.3",
-  "description": "Terminal-first calendar, todo, and journal manager",
-  "homepage": "https://github.com/DouglasdeMoura/chroncal",
-  "license": "MIT",
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/DouglasdeMoura/chroncal/releases/download/v0.2.3/chroncal_0.2.3_windows_amd64.zip",
-      "hash": "dfba35ee4042d262c53601a9d9b1cbd8bc4a06ef6ab0ae4c0c6dc089fae30c6a"
-    }
-  },
-  "bin": "chroncal.exe",
-  "checkver": {
-    "github": "https://github.com/DouglasdeMoura/chroncal"
-  },
-  "autoupdate": {
+    "version": "0.2.4",
     "architecture": {
-      "64bit": {
-        "url": "https://github.com/DouglasdeMoura/chroncal/releases/download/v$version/chroncal_$version_windows_amd64.zip"
-      }
-    }
-  }
+        "32bit": {
+            "url": "https://github.com/DouglasdeMoura/chroncal/releases/download/v0.2.4/chroncal_0.2.4_windows_386.zip",
+            "bin": [
+                "chroncal.exe"
+            ],
+            "hash": "6725dec03dbdf73fae67db2af3c8525de691186021a7c998490c10efcee95d00"
+        },
+        "64bit": {
+            "url": "https://github.com/DouglasdeMoura/chroncal/releases/download/v0.2.4/chroncal_0.2.4_windows_amd64.zip",
+            "bin": [
+                "chroncal.exe"
+            ],
+            "hash": "136c02a0b0768e49f8e793f6dfd65e117f865713ab6576f5fb1611d7ddc57c8a"
+        },
+        "arm64": {
+            "url": "https://github.com/DouglasdeMoura/chroncal/releases/download/v0.2.4/chroncal_0.2.4_windows_arm64.zip",
+            "bin": [
+                "chroncal.exe"
+            ],
+            "hash": "6343577ceb806ecd8118ba948cc0a1928f374306502a49cdabbed632d5d7ead8"
+        }
+    },
+    "homepage": "https://github.com/DouglasdeMoura/chroncal",
+    "license": "MIT",
+    "description": "Terminal-first calendar, todo, and journal manager"
 }
