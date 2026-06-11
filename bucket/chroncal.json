@@ -6,21 +6,21 @@
             "bin": [
                 "chroncal.exe"
             ],
-            "hash": "6725dec03dbdf73fae67db2af3c8525de691186021a7c998490c10efcee95d00"
+            "hash": "bd39fc8639f9d7898f565f3fe919a10ea3bb7f112703531c601268f064f1f8c6"
         },
         "64bit": {
             "url": "https://github.com/DouglasdeMoura/chroncal/releases/download/v0.2.4/chroncal_0.2.4_windows_amd64.zip",
             "bin": [
                 "chroncal.exe"
             ],
-            "hash": "136c02a0b0768e49f8e793f6dfd65e117f865713ab6576f5fb1611d7ddc57c8a"
+            "hash": "b06090a135932ac600ed9900f31edd5781e662373e27ddfaf4afa11f97a09d36"
         },
         "arm64": {
             "url": "https://github.com/DouglasdeMoura/chroncal/releases/download/v0.2.4/chroncal_0.2.4_windows_arm64.zip",
             "bin": [
                 "chroncal.exe"
             ],
-            "hash": "6343577ceb806ecd8118ba948cc0a1928f374306502a49cdabbed632d5d7ead8"
+            "hash": "83a3d2c77125a3353bbfe4e41eb2d75223bb5cb06bb5b0af8dff3aada87e6fe9"
         }
     },
     "homepage": "https://github.com/DouglasdeMoura/chroncal",
